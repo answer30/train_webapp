@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:id="@+id/btn01"
+    >
+
+<RelativeLayout
+    android:layout_width="590px"
+    android:layout_height="500px"
+    android:background="@drawable/popup_1"
+    android:layout_centerInParent="true"
+    >
+
+
+    <TextView
+        android:id="@+id/time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55px"
+        android:background="@drawable/cir_time"
+        android:includeFontPadding="false"
+        android:gravity="center"
+        android:textColor="#b59f64"
+        android:textSize="80px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="28px"
+        android:textColor="#111111"
+        android:layout_marginTop="256px"
+        android:text="@string/popup_title"
+        android:includeFontPadding="false"
+        />
+
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="380px"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_message"
+        android:layout_centerHorizontal="true"
+        android:textSize="22px"
+        android:textColor="#545454"
+        android:layout_marginTop="310px"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        />
+
+    <TextView
+        android:layout_width="250px"
+        android:layout_height="50px"
+        android:text="@string/popup_button"
+        android:layout_marginTop="390px"
+        android:layout_centerHorizontal="true"
+        android:textSize="22px"
+        android:textColor="#bacad9"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        />
+
+</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:id="@+id/noti_layout"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="850px"
+        android:layout_height="350px"
+        android:background="@drawable/popup_1"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25px"
+            android:layout_marginRight="40px"
+            android:background="@drawable/btn_close_yellow"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55px"
+            android:background="@drawable/noti_title"
+            />
+
+
+        <TextView
+            android:id="@+id/noti_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:singleLine="true"
+            android:textColor="#b59f64"
+            android:textSize="50px"
+            android:text="@string/blcaklist_title"
+            android:visibility="invisible"
+            />
+
+        <ImageView android:layout_width="700px"
+               android:layout_height="2px"
+               android:background="#b59f64"
+               android:layout_marginTop="150px"
+               android:layout_centerHorizontal="true"
+                />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/noti_dt"
+            android:layout_marginTop="210px"
+            android:visibility="invisible"
+            />
+
+        <TextView
+                android:id="@+id/noti_message"
+                android:layout_width="750px"
+                android:layout_height="150px"
+                android:textColor="#4c545b"
+                android:includeFontPadding="false"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="35px"
+                android:layout_marginTop="160px"
+                android:textStyle="bold"
+        />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

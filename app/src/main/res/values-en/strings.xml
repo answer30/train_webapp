@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">korail_webapp</string>
+
+    <string name="naver">KoreaTimes</string>
+    <string name="daum">Msn</string>
+    <string name="korail">Korail</string>
+    <string name="google">Google</string>
+
+    <string name="popup_title">You\&apos;re about to be signed out.</string>
+    <!--<string name="popup_message">If you\&apos;re not active for %d minutes while using the Internet,\n Return to the main screen.</string>-->
+    <string name="popup_message">If you\&apos;re not active for %d minutes,\n you\&apos;ll return to the Home Screen.</string>
+
+    <string name="popup_button">Cancel</string>
+
+    <string name="player_alat_message">For security reasons, video streaming on these websites is not allowed.</string>
+
+    <string name="blcaklist_title">Notification</string>
+
+    <string name="blcaklist_message">Your keyword contains words that\nmay provide inappropriate/explicit results.</string>
+
+    <string name="gudie_title">Internet Remote Control</string>
+
+    <string name="gudie_message"><![CDATA[Touch the screen, then <font color="#00B050">zoom-in/zoom-out buttons</font> will appears.]]></string>
+
+    <string name="gudie_message2"><![CDATA[<font color="#B59F64">Drag to move</font> on the zoomed screen.]]></string>
+
+    <string name="guide_text_01">Zoom-out</string>
+    <string name="guide_text_02">Zoom-in</string>
+    <string name="guide_text_03">Revert to original</string>
+
+</resources>

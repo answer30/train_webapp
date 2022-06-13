@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">korail_webapp</string>
+
+    <string name="naver">네이버</string>
+    <string name="daum">다음</string>
+    <string name="korail">Zum</string>
+    <string name="google">구글</string>
+
+
+    <string name="popup_title">잠시 후 종료됩니다</string>
+    <string name="popup_message">인터넷 사용 중 %d분간 동작이 없으면\n메인 화면으로 돌아갑니다.</string>
+    <string name="popup_button">취소</string>
+
+    <string name="player_alat_message">위 사이트에서는 동영상 재생기능이 보안상 제한되어 있습니다.</string>
+
+    <string name="blcaklist_title">알려드립니다.</string>
+
+    <string name="blcaklist_message">유해 단어가 포함된 검색어 입니다.</string>
+
+    <string name="gudie_title">인터넷 리모콘</string>
+
+    <string name="gudie_message"><![CDATA[화면 터치 시 <font color="#00B050">확대 축소 버튼</font>이 나타납니다.]]></string>
+
+    <string name="gudie_message2"><![CDATA[확대 된 화면에서 <font color=#B59F64>좌우상하 드래그</font>하면 화면이 이동합니다.]]></string>
+
+    <string name="guide_text_01">화면 크기 축소</string>
+    <string name="guide_text_02">화면 크기 확대</string>
+    <string name="guide_text_03">화면 크기 초기화</string>
+
+</resources>
